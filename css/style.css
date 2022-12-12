@@ -1,0 +1,120 @@
+ body {
+  display: block;
+  margin: 0 auto;
+ }
+ .container {
+  background: hsl(233, 47%, 7%);
+  padding: 200px 100px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+ .wrapper {
+display: flex;
+max-width: 1080px;
+margin: 0 auto;
+max-height: 446px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background: hsl(244, 38%, 16%);
+  padding: 60px 80px;
+}
+.card-nav {
+  padding: 60px 0;
+}
+.header {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 28px;
+  text-align: left;
+  color: hsl(0, 0%, 100%);
+}
+.main-text {
+  font-family: 'Inter';
+  text-align: left;
+  font-size: 15px;
+  line-height: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+  letter-spacing: 6%;
+}
+.text-decor {
+   color: hsl(277, 64%, 61%);
+}
+.nav-list {
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+}
+.number-item {
+  font-family: 'Inter';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-item-number {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding-bottom: 5px;
+}
+.nav-item {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 10%;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.main-photo-cover {
+  background-color: hsl(277, 64%, 61%);
+  }
+.main-photo {
+  opacity: 0.5;
+}
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+.attribution a {
+ color: hsl(228, 45%, 44%); 
+}
+@media only screen
+
+and (min-width: 375px)
+and (max-width: 1439px){
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+  .container {
+    max-width: 375px;
+    padding-top: 600px;
+  }
+  .header {
+    text-align: center;
+    margin: 0 25px;
+  }
+  .card {
+    padding: 30px 20px;
+  }
+  .card-text {
+    text-align: center;
+  }
+  .main-photo-cover img {
+    width: 100%;
+    height: 230px;
+  }
+  .main-text {
+    text-align: center;
+    margin: 30px 35px 0;
+  }
+  .number-item {
+  display: block;
+}
+.card-nav {
+  display: flex;
+  justify-content: center;
+}
+.first {
+  padding: 10px 0;
+}
+
+
+}
