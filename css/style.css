@@ -1,12 +1,12 @@
  body {
-  display: block;
-  margin: 0 auto;
+  margin: 50px;
+  background: black;
  }
-.wrapper {
- display: flex;
- max-width: 1080px;
- margin: 0 auto;
- max-height: 446px;
+ .wrapper {
+  display: flex;
+  max-width: 1080px;
+  margin: 0 auto;
+  max-height: 446px;
 }
 .card {
   display: flex;
@@ -74,13 +74,13 @@
 
 and (min-width: 375px)
 and (max-width: 1439px){
+  body {
+  margin: 550px 50px 100px;
+  background: black;
+ }
   .wrapper {
     flex-direction: column-reverse;
     max-width: 375px;
-  }
-  .container {
-    max-width: 375px;
-    padding-top: 600px;
   }
   .header {
     text-align: center;
@@ -111,5 +111,18 @@ and (max-width: 1439px){
   padding: 10px 0;
 }
 
-
 }
+/*
+@media only screen
+
+and (min-width: 500px)
+and (max-width: 1439px) {
+  .main-photo-cover img {
+    width: 400px;
+    height: 230px;
+  }
+  .wrapper {
+    max-width: 400px;
+  }
+}
+*/
